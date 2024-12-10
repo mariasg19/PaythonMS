@@ -40,3 +40,27 @@ print("Mi cadena es ",concatenacion)
 lista1 = [4, True, "Hola"]
 
 print ("elementos: ", lista1)
+
+# Ejercicio 5------------------------------------------------------------
+"Operar con una multiplicacion"
+
+multiplicacion = num1*num2
+print ("Mi multiplicacion es ", multiplicacion)
+
+#Ejercicio 6-------------------------------------------------------------
+"""Crea una cadena de texto 
+y muestra su longidud"""
+
+cadena3 = "Holi holi"
+longitud = len(cadena3)
+
+print("La longitud de",cadena3, "es",longitud)
+
+# Ejercicio 7------------------------------------------------------------
+"Calcula el promedio de una lista de numeros"
+numeros = [2,4,5,3,0,4,5]
+Promedio = sum(numeros) / len(numeros)
+
+print("La media de mi lista es " , Promedio)
+
+
