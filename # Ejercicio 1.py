@@ -63,4 +63,25 @@ Promedio = sum(numeros) / len(numeros)
 
 print("La media de mi lista es " , Promedio)
 
+# Ejercicio 8------------------------------------------------------------
+"""Crea una tupla con elementos
+e imprimela"""
+
+miTupla = ("holi",4,False,True,8,4)
+#metodoCount
+#Me calcula el numero de 4 que hay en mi tupla
+print(miTupla.count(4))
+
+#MetodoIndex
+#Me calcula la posicion donde esta el 4
+#Pero solo me da la primera posicion, no la otra
+print(miTupla.index(4))
+
+#Ejercicio 9-------------------------------------------------------------
+var = '''Esto tambien es un comentario'''
+#pero si lo imprimimos como variable es un String
+print(var)
+
+
+
 
