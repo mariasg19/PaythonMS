@@ -10,4 +10,9 @@ num_personas = len(personas)
 
 media_salarios = suma_salarios / num_personas
 
-print(media_salaios)
+print(media_salarios)
+
+def maximo_salario(personas):
+    #Devuelve el salario más alto de la lista
+    return max(persona["salario"] for persona in personas)
+print(maximo_salario)
